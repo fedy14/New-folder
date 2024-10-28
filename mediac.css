@@ -10,16 +10,20 @@ body {
     justify-content: center;
     height: 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #bb751a;
+    /* background-color: #bb751a; */
+    background-image: url(https://cdn.pixabay.com/photo/2012/04/18/01/45/world-36479_640.png);
 }
 
 .profile-card {
     max-width: 300px;
     padding: 20px;
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
+    box-shadow: 5px 5px 5px red, -5px -5px 10px blue;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
 }
 
 .profile-image {
@@ -34,12 +38,12 @@ body {
     margin-bottom: 8px;
 }
 
-.bio{
+.bio {
     font-size: 1.2em;
-    color: #ffffff;
+    color: #000000;
 }
 
-span{
+span {
     font-size: 1.5em;
     color: #a13210;
 }
